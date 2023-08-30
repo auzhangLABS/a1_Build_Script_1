@@ -13,3 +13,4 @@ sudo apt update | tail -n 1 > /home/ubuntu/update$(date +"%m.%d.%y").txt
 #or 0 23 * * 5 /home/ubuntu/a-one-script.sh
 #which would allow it to run every Friday at 11 pm. This would only work if cron status is active and running you can check this by putting in this command:
 # sudo service cron status
+#we also had to make sure that the shell script executable
