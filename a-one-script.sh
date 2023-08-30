@@ -1,4 +1,5 @@
-#this is a bash script named a-one-script.sh
+#this is a bash script named a-one-script.sh by Aubrey ZHang made of 8/30/2023
+#Purpose: to create a cron Job that automates updating the server and returning you a file with today date about the amount of package that can be upgraded.
 #!/bin/bash
 #This is a one-liner because I try to do it first within crontab
 # This is also the shell script that I'll will be putting into the crontab.
